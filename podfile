@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+def shared_pods
+
+
+	use_frameworks!
+
+
+end
+
+
+target 'SonarDemoApp' do
+
+	#added shared pod instance
+	shared_pods
+end
